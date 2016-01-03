@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:RepProject id="function.report.examples" xmlns:ns2="http://www.junit-tools.org/ntrml/ntrml.xsd">
+    <statistics>
+        <necessaryTestClassesCounter>2</necessaryTestClassesCounter>
+        <availableTestClassesCounter>1</availableTestClassesCounter>
+        <necessaryTestMethodsCounter>4</necessaryTestMethodsCounter>
+        <availableTestMethodsCounter>1</availableTestMethodsCounter>
+        <classCoverage>50.0</classCoverage>
+        <methodCoverage>25.0</methodCoverage>
+        <newMethodsCounter>3</newMethodsCounter>
+    </statistics>
+    <newMethods>base.project.examples.logic.Subtype.doSmth((QString;)V)</newMethods>
+    <newMethods>base.project.examples.logic.ClassWithIfStatements.oneIfOnlyNullCheck((QString;)V)</newMethods>
+    <newMethods>base.project.examples.logic.ClassWithIfStatements.oneIfSt((QString;QString;QString;)QString;)</newMethods>
+    <packages id="base.project.examples.logic">
+        <classes id="Subtype.java">
+            <methods subtype="InnerClass" signature="(QString;)V" id="doSmth">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-06-30+02:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>true</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+        </classes>
+        <classes id="ClassWithIfStatements.java">
+            <methods signature="(QString;)V" id="oneIfOnlyNullCheck">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-06-30+02:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>true</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods signature="(QString;QString;QString;)QString;" id="oneIfSt">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-06-30+02:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+        </classes>
+    </packages>
+</ns2:RepProject>

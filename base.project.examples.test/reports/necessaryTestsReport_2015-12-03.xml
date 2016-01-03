@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:RepProject id="base.project.examples" xmlns:ns2="http://www.junit-tools.org/ntrml/ntrml.xsd">
+    <statistics>
+        <necessaryTestClassesCounter>5</necessaryTestClassesCounter>
+        <availableTestClassesCounter>4</availableTestClassesCounter>
+        <necessaryTestMethodsCounter>50</necessaryTestMethodsCounter>
+        <availableTestMethodsCounter>8</availableTestMethodsCounter>
+        <classCoverage>80.0</classCoverage>
+        <methodCoverage>16.0</methodCoverage>
+        <newMethodsCounter>40</newMethodsCounter>
+    </statistics>
+    <newMethods testprio="low">
+        <fullQualifiedName>base.project.examples.generator.Testcases.multiChainMixed1(String param1, String param2, String param3)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.multiChainParenthesized3(String param1, String param2, String param3, String param4, String param5)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.externalFunction()</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.multiChainXor1(String param1, String param2, String param3)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.lowerThanEqualCheck(int param1, int param2)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.multiChainAnd3(int param1, int param2, int param3, int param4)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.multiChainParenthesized(String param1, String param2, String param3)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.multiChainAnd2(String param1, String param2, String param3, String param4)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.greaterThanCheck(int param1, int param2)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.objectParamAndReturn(TestParam param)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.multiChainParenthesized2(String param1, String param2, String param3, String param4)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.objectParamAndReturn2(TestParam param)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.lowerThanCheck3(int param)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.privateMethod(int num1)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.greaterThanEqualCheck(int param1, int param2)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.multiChainMixed4(String param1, int param2, boolean param3, double param4, String param5)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.multiChainSameParam(int param1)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.instanceObjectVariables()</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.lowerThanCheck(int param1)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.instanceVariables()</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.objectParam(TestParam param)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.orCheck2(String param1, String param2)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.equalQueck5(char param)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.multiChainMixed2(String param1, String param2, String param3, String param4)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.internalFunction(String funktion, double num1, double num2)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.twoChecksWithReturn(String param)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.greaterThanCheck2(int param1)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.greaterThanEqualCheck3(int param1)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.multiChainSameParam2(int param1, int param2)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.orCheck(String param1, String param2)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.xorCheck(String param1, String param2)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.greaterThanEqualCheck2(int param1)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.multiChainMixed3(String param1, int param2, boolean param3, double param4)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.lowerThanCheck2(int param1, int param2)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.intCompare(int num1, int num2)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.multiChainOr1(String param1, String param2, String param3)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.multiChainAnd1(String param1, String param2, String param3)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.logic.BoClass.concat3(String var1, String var2, String var3)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.logic.ValueObject.doSmth(double a)</fullQualifiedName>
+    </newMethods>
+    <newMethods testprio="default">
+        <fullQualifiedName>base.project.examples.generator.Testcases.multiChainNested3(String param1, String param2, String param3)</fullQualifiedName>
+    </newMethods>
+    <packages id="base.project.examples.generator">
+        <classes id="Testcases.java">
+            <methods id="multiChainMixed1" signature="(QString;QString;QString;)Z">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="multiChainNested2" signature="(QString;QString;QString;)Z">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-07-07+02:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>false</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>3</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="multiChainParenthesized3" signature="(QString;QString;QString;QString;QString;)Z">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="externalFunction" signature="()I">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="multiChainXor1" signature="(QString;QString;QString;)Z">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="lowerThanEqualCheck" signature="(II)Z">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="multiChainAnd3" signature="(IIII)Z">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="multiChainParenthesized" signature="(QString;QString;QString;)Z">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="multiChainAnd2" signature="(QString;QString;QString;QString;)Z">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="greaterThanCheck" signature="(II)Z">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="objectParamAndReturn" signature="(QTestParam;)QTestParam;">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>3</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="multiChainParenthesized2" signature="(QString;QString;QString;QString;)Z">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="objectParamAndReturn2" signature="(QTestParam;)QTestParam;">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>3</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="lowerThanCheck3" signature="(I)Z">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="privateMethod" signature="(I)Z">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="greaterThanEqualCheck" signature="(II)Z">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="multiChainMixed4" signature="(QString;IZDQString;)Z">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="multiChainSameParam" signature="(I)Z">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="instanceObjectVariables" signature="()QString;">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>2</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="lowerThanCheck" signature="(I)Z">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="instanceVariables" signature="()QString;">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>2</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="objectParam" signature="(QTestParam;)V">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>3</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="orCheck2" signature="(QString;QString;)Z">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="equalQueck5" signature="(C)Z">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="multiChainNested1" signature="(QString;QString;QString;)Z">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-07-07+02:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>false</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>2</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="multiChainMixed2" signature="(QString;QString;QString;QString;)Z">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="internalFunction" signature="(QString;DD)D">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>3</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="twoChecksWithReturn" signature="(QString;)QString;">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>2</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="greaterThanCheck2" signature="(I)Z">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="greaterThanEqualCheck3" signature="(I)Z">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="multiChainSameParam2" signature="(II)Z">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="orCheck" signature="(QString;QString;)Z">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="xorCheck" signature="(QString;QString;)Z">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="greaterThanEqualCheck2" signature="(I)Z">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="multiChainMixed3" signature="(QString;IZD)Z">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="multiChainNested3" signature="(QString;QString;QString;)Z">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>default</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>4</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="lowerThanCheck2" signature="(II)Z">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="intCompare" signature="(II)I">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>2</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="multiChainOr1" signature="(QString;QString;QString;)Z">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="multiChainAnd1" signature="(QString;QString;QString;)Z">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+        </classes>
+    </packages>
+    <packages id="base.project.examples.logic">
+        <classes id="BoClass.java">
+            <methods id="calculate" signature="(QString;DD)D">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>false</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-06-30+02:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>false</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>2</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="calculateNumber" signature="(II)I">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>false</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-06-30+02:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>false</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="concat3" signature="(QString;QString;QString;)QString;">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+        </classes>
+        <classes id="ValueObject.java">
+            <methods id="doSmth" signature="(D)V">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-12-03+01:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="ValueObject" signature="(IQString;)V">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>false</isTestNecessary>
+                    <date>2015-06-25+02:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>false</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods id="doSmth" signature="(I)V">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>false</isTestNecessary>
+                    <date>2015-06-25+02:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>false</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+        </classes>
+        <classes id="SwitchClassNavigation.java">
+            <methods id="methode2" signature="(I)V">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>false</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-06-30+02:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>false</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>2</numberOfIfStatements>
+                    <checkAgain>true</checkAgain>
+                </report>
+            </methods>
+        </classes>
+    </packages>
+</ns2:RepProject>

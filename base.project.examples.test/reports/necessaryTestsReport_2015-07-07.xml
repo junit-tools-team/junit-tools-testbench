@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:RepProject id="base.project.examples" xmlns:ns2="http://www.junit-tools.org/ntrml/ntrml.xsd">
+    <statistics>
+        <necessaryTestClassesCounter>4</necessaryTestClassesCounter>
+        <availableTestClassesCounter>4</availableTestClassesCounter>
+        <necessaryTestMethodsCounter>39</necessaryTestMethodsCounter>
+        <availableTestMethodsCounter>37</availableTestMethodsCounter>
+        <classCoverage>100.0</classCoverage>
+        <methodCoverage>94.0</methodCoverage>
+        <newMethodsCounter>2</newMethodsCounter>
+    </statistics>
+    <newMethods testprio="low">
+        <fullQualifiedName>base.project.examples.generator.Testcases.multiChainNested1(String param1, String param2, String param3)</fullQualifiedName>
+        <fullQualifiedName>base.project.examples.generator.Testcases.multiChainNested2(String param1, String param2, String param3)</fullQualifiedName>
+    </newMethods>
+    <packages id="base.project.examples.generator">
+        <classes id="Testcases.java">
+            <methods signature="(QString;QString;QString;)Z" id="multiChainNested1">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-07-07+02:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>2</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods signature="(QString;QString;QString;)Z" id="multiChainNested2">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>true</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-07-07+02:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>3</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+        </classes>
+    </packages>
+    <packages id="base.project.examples.logic">
+        <classes id="BoClass.java">
+            <methods signature="(QString;DD)D" id="calculate">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>false</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-06-30+02:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>false</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>2</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods signature="(II)I" id="calculateNumber">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>false</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-06-30+02:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>false</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+        </classes>
+        <classes id="ValueObject.java">
+            <methods signature="(IQString;)V" id="ValueObject">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>false</isTestNecessary>
+                    <date>2015-06-25+02:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>false</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods signature="(I)V" id="doSmth">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>false</isTestNecessary>
+                    <date>2015-06-25+02:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>false</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+        </classes>
+        <classes id="SwitchClassNavigation.java">
+            <methods signature="(I)V" id="methode2">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNecessary>false</isTestNecessary>
+                    <coveredWith></coveredWith>
+                    <date>2015-06-30+02:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>false</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>2</numberOfIfStatements>
+                    <checkAgain>true</checkAgain>
+                </report>
+            </methods>
+        </classes>
+    </packages>
+</ns2:RepProject>

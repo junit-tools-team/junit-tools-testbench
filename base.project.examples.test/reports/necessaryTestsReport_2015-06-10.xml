@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:RepProject id="base.project.examples" xmlns:ns2="http://www.junit-tools.org/ntrml/ntrml.xsd">
+    <packages id="base.project.examples.logic">
+        <classes id="SwitchClassNavigation.java">
+            <methods signature="(I)V" id="methode1">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <date>2015-06-10+02:00</date>
+                    <testPrio>low</testPrio>
+                </report>
+            </methods>
+            <methods signature="(I)V" id="methode2">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <date>2015-06-10+02:00</date>
+                    <testPrio>low</testPrio>
+                </report>
+            </methods>
+        </classes>
+    </packages>
+    <statistics>
+        <necessaryTestClassesCounter>3</necessaryTestClassesCounter>
+        <necessaryTestMethodsCounter>5</necessaryTestMethodsCounter>
+        <availableTestClassesCounter>3</availableTestClassesCounter>
+        <availableTestMethodsCounter>3</availableTestMethodsCounter>
+        <classCoverage>100.0</classCoverage>
+        <methodCoverage>60.0</methodCoverage>
+    </statistics>
+</ns2:RepProject>

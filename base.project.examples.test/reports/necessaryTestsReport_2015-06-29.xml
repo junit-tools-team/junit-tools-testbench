@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:RepProject id="base.project.examples" xmlns:ns2="http://www.junit-tools.org/ntrml/ntrml.xsd">
+    <statistics>
+        <necessaryTestClassesCounter>3</necessaryTestClassesCounter>
+        <availableTestClassesCounter>3</availableTestClassesCounter>
+        <necessaryTestMethodsCounter>6</necessaryTestMethodsCounter>
+        <availableTestMethodsCounter>3</availableTestMethodsCounter>
+        <classCoverage>100.0</classCoverage>
+        <methodCoverage>50.0</methodCoverage>
+        <newMethodsCounter>3</newMethodsCounter>
+    </statistics>
+    <newMethods>base.project.examples.logic.BoClass.calculate((QString;DD)D)</newMethods>
+    <newMethods>base.project.examples.logic.BoClass.calculateNumber((II)I)</newMethods>
+    <newMethods>base.project.examples.logic.SwitchClassNavigation.methode2((I)V)</newMethods>
+    <packages id="base.project.examples.logic">
+        <classes id="BoClass.java">
+            <methods signature="(QString;DD)D" id="calculate">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNessecary>true</isTestNessecary>
+                    <coveredWith></coveredWith>
+                    <date>2015-06-30+02:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>2</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods signature="(II)I" id="calculateNumber">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNessecary>true</isTestNessecary>
+                    <coveredWith></coveredWith>
+                    <date>2015-06-30+02:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+        </classes>
+        <classes id="ValueObject.java">
+            <methods signature="(IQString;)V" id="ValueObject">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNessecary>false</isTestNessecary>
+                    <date>2015-06-25+02:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>false</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+            <methods signature="(I)V" id="doSmth">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNessecary>false</isTestNessecary>
+                    <date>2015-06-25+02:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>false</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+        </classes>
+        <classes id="SwitchClassNavigation.java">
+            <methods signature="(I)V" id="methode2">
+                <report>
+                    <isTestAvailable>false</isTestAvailable>
+                    <isTestNessecary>true</isTestNessecary>
+                    <coveredWith></coveredWith>
+                    <date>2015-06-30+02:00</date>
+                    <testPrio>low</testPrio>
+                    <isNew>true</isNew>
+                    <onlyNullchecks>false</onlyNullchecks>
+                    <numberOfIfStatements>1</numberOfIfStatements>
+                    <checkAgain>false</checkAgain>
+                </report>
+            </methods>
+        </classes>
+    </packages>
+</ns2:RepProject>
