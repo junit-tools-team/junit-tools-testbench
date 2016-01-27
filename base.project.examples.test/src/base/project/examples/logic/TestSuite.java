@@ -6,6 +6,6 @@ import org.junit.runners.Suite;
 @RunWith(Suite.class)
 @Suite.SuiteClasses(
 
-{ SwitchClassNavigationTest.class, BLClassTest.class, BLSubClassTest.class })
+{ SwitchClassNavigationTest.class, BLSubClassTest.class, BLClassTest.class })
 public class TestSuite { // nothing
 }

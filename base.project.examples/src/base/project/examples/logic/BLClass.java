@@ -50,6 +50,13 @@ public class BLClass {
 		return number1*number2;
 	}
 
+	public float calculateFloatNumber(float number1, float number2) {
+		if (number1 < 0) {
+			number1 *= -1;
+		}		
+		return number1*number2;
+	}
+	
 	protected void doSmth3() {
 		doSmthPrivate17("hallo", "world");
 	}
